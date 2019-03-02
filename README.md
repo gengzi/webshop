@@ -1,6 +1,9 @@
-# webshop
-##java基础练习项目-仿照雷蛇商城
+# webshop java基础练习项目-仿照雷蛇商城
+
+javaweb 基础部分，没有涉及框架，基本实现，浏览商品，查看商品，购物车，查看订单，分页显示
 这是之前上学时期练习的一个demo，看有朋友需要就上传上来了。更多资源关注:[耿子blog](http://open.weixin.qq.com/qr/code?username=gh_00fc0ac9f94b)
+![效果图](https://github.com/gengzi/webshop/blob/master/docandsql/img/9.png)
+
 
 ## 1 项目简介
 用户登录：客户通过注册后，若已注册，直接登录键鼠特卖商城，进行购买心仪的鼠标或键盘或电脑配件等，点击购买后，到购物车进行查看购买商品的详细信息，填写收货地址等详细个人信息，订单提交成功后，可以到个人中心查看，支付成功发货，未支付不支持发货。
