@@ -1,0 +1,64 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+#dao_list>li {
+	width: 150px;
+}
+
+#dao_list>ul {
+	list-style-type: none;
+}
+
+div {
+	display: block;
+}
+
+#dao_list {
+	width: 100%;
+	margin-top: 20px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #00A000;
+	overflow: hidden;
+}
+#li_sy{
+	margin-left:180px;
+	
+}
+#title{
+	margin-right:100px;
+	margin-top:10px;
+	margin-bottom:45px;
+}
+
+#dao_list>li {
+	float: left;
+}
+#topimg {
+	float: left;
+}
+#dao_list>li ul {
+	display: none; /*先把list 中父元素中的li 中的ul 隐藏掉 */
+}
+
+#dao_list>li:hover ul { /*当鼠标在上面悬浮，显示 */
+	display: block;
+	position: absolute;
+	background-color: #19508B;
+}
+
+#dao_list>li>a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#dao_list>li>ul>li a {
+	color: #ffffff;
+}
+
+#dao_list>li>ul>li a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}

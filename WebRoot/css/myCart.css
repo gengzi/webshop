@@ -1,0 +1,217 @@
+@charset "gb2312";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+	background-color: #111;
+}
+
+ul,li,ol,h1,dl,dd {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	color: #00ff00;
+}
+
+a {
+	color: #00ff00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #CD590C;
+	text-decoration: underline;
+}
+
+img {
+	border: 0px;
+	vertical-align: middle;
+}
+
+#header {
+	height: 40px;
+	margin: 10px auto 10px 10px;
+	width: 800px;
+	clear: both;
+}
+
+#nav {
+	margin: 10px auto 10px auto;
+	width: 800px;
+	clear: both;
+	color: #ffffff;
+	font-size: 15px;
+}
+
+#navlist {
+	width: 800px;
+	margin: 0px auto 0px auto;
+	height: 23px;
+}
+
+#navlist li {
+	float: left;
+	height: 23px;
+	line-height: 26px;
+}
+
+.navlist_red_left {
+	background-image: url(../images/taobao_bg.png);
+	background-repeat: no-repeat;
+	background-position: -12px -92px;
+	width: 3px;
+}
+
+.navlist_red {
+	background-color: #00A000;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	width: 130px;
+}
+
+.navlist_red_arrow {
+	background-color: #00A000;
+	background-image: url(../images/taobao_bg.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 13px;
+}
+
+.navlist_gray {
+	background-color: #00A000;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	width: 150px;
+}
+
+.navlist_gray_arrow {
+	background-color: #00A000;
+	background-image: url(../images/taobao_bg.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 13px;
+}
+
+.navlist_gray_right {
+	background-image: url(../images/taobao_bg.png);
+	background-repeat: no-repeat;
+	background-position: -12px -138px;
+	width: 3px;
+}
+
+#content {
+	width: 800px;
+	margin: 10px auto 5px auto;
+	clear: both;
+}
+#content tr td{
+	color:#FFFFFF;
+}
+.title_1 {
+	text-align: center;
+	width: 50px;
+	color: #FFFFFF;
+}
+
+.title_2 {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.title_3 {
+	text-align: center;
+	color: #FFFFFF;
+	width: 80px;
+}
+
+.title_4 {
+	text-align: center;
+	color: #FFFFFF;
+	width: 80px;
+}
+
+.title_5 {
+	text-align: center;
+	color: #FFFFFF;
+	width: 100px;
+}
+
+.title_6 {
+	text-align: center;
+	color: #FFFFFF;
+	width: 80px;
+}
+
+.title_7 {
+	text-align: center;
+	color: #FFFFFF;
+	width: 60px;
+}
+
+.line {
+	background-color: #a7cbff;
+	height: 3px;
+}
+
+.shopInfo {
+	padding-left: 10px;
+	height: 35px;
+	vertical-align: bottom;
+}
+
+.num_input {
+	border: solid 1px #666;
+	width: 25px;
+	height: 15px;
+	text-align: center;
+}
+
+.cart_td_1,.cart_td_2,.cart_td_3,.cart_td_4,.cart_td_5,.cart_td_6,.cart_td_7,.cart_td_8
+	{
+	background-color: #222222;
+	border-bottom: solid 1px #d1ecff;
+	border-top: solid 1px #d1ecff;
+	text-align: center;
+	padding: 5px;
+}
+
+.cart_td_1,.cart_td_3,.cart_td_4,.cart_td_5,.cart_td_6,.cart_td_7 {
+	border-right: solid 1px #FFF;
+}
+
+.cart_td_3 {
+	text-align: left;
+}
+
+.cart_td_4 {
+	font-weight: bold;
+}
+
+.cart_td_7 {
+	font-weight: bold;
+	color: #fe6400;
+	font-size: 14px;
+}
+
+.hand {
+	cursor: pointer;
+}
+
+.shopend {
+	text-align: right;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.yellow {
+	font-weight: bold;
+	color: #fe6400;
+	font-size: 18px;
+	line-height: 40px;
+}

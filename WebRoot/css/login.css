@@ -1,0 +1,2192 @@
+*{
+	padding:0px;
+	margin:0px;
+
+}
+body{
+	width:100%;
+	background-color:#111111;
+	font-size: 15px;
+    font-family: 寰蒋闆呴粦, 瀹嬩綋, Verdana, Arial;
+    line-height: 20px;
+}
+#top{
+	width:100%;
+	height:41px;
+	background-color:#1F1F1F;
+
+}
+.top ul li a {
+    color: #999;
+    padding: 0px 8px;
+}
+.top ul li  {
+	margin-top:10px;
+	margin-right:10px;
+   float:right;
+   text-align: center;
+}
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*
+Template Name: ECSHOP Default
+Template URI: http: //www.ecshop.com/
+Description: 茅禄藴猫庐陇氓聧鈥∶郝р�藛.
+Version: 2.7.2
+Author: ECSHOP Team
+Author URI: http: //www.ecshop.com/
+Logo filename: logo.gif
+Template Type: type_0*/
+/* ==================== 氓鈥βモ�卤忙聽路氓录聫
+====================*/
+body {
+    background: #fff;
+    font-size: 12px;
+    font-family:"氓戮庐猫陆炉茅鈥衡�茅禄鈥�, "氓庐鈥姑ぢ解�",Verdana, Arial;
+    line-height: 20px;
+    margin: 5px 0 0 0;
+    padding: 0;
+    color: #eee;
+		background-color:#111111;
+}
+
+div {
+    margin: 0 auto;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,form,img,p {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style-type: none;
+}
+.block {
+    width: 1200px;
+    margin: 0 auto;
+}
+.f_l {
+    float: left;
+}
+.f_r {
+    float: right;
+}
+.tl {
+    text-align: left;
+}
+.tc {
+    text-align: center;
+}
+.tr {
+    text-align: right;
+}
+.dis {
+    display: block;
+}
+.inline {
+    display: inline;
+}
+.none {
+    display: none;
+}
+.dashed {
+    background: url(images/lineBg.gif) repeat-x left top;
+    color: #3f3f3f;
+    padding: 2px 0 3px 12px;
+}
+.clearfix{
+    clear:both;
+}
+
+.xf{width:1200px; height:50px; background:#333; position: fixed; top:0; z-index:9999; padding:2px 0 0 10px;}
+.xf #gwc{ padding-right:10px;}
+.clearfix: after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+*html .clearfix {
+    height: 1%;
+}
+*+html .clearfix {
+    height: 1%;
+}
+/*猫鈥孤泵︹�鈥∶ヂ悸好ニ喡睹β嵚⒚∨�/
+.word {
+    word-break: break-all;
+}
+/*猫戮鹿忙隆鈥�/
+.B_blue {
+    /*border: 1px solid #01ff00;*/
+}
+.B_input {
+    border: 1px solid #0f97ed;
+}
+.inputBg {
+    border: 1px solid #b3b3b3;
+    /*background: url(images/inputbg.gif) repeat-x left top;*/
+    height: 30px;
+}
+/*氓颅鈥斆ぢ解�茅垄艙猫鈥奥�/
+.f1 {
+    color: #0f0;
+}
+.f2 {
+    /*color: #121212;*/
+    font-weight: bold;
+    margin-right: 15px;
+}
+.f3 {
+    color: #9e9e9e;
+}
+.f4 {
+    color: #FFF;
+}
+.f4_b {
+    color: #01ff00;
+    font-weight: bold;
+}
+.f5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+.f6 {
+    color: #9d9d9d;
+}
+.f6 a:link{	color: #01ff00;}
+.f6 a:vistied{color: #01ff00;}
+.f6 a:hover{color: #01ff00;}
+.f6 a:active{color: #01ff00;}
+
+.market {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.shop {
+    color: #01ff00;
+    font-size: 14px;
+    /*font-weight: 600;*/
+}
+.market_s {
+    text-decoration: line-through;
+}
+.shop_s {
+    color: #01ff00;
+}
+/*忙艗鈥懊┾�庐茅茠篓氓藛鈥�/
+.bnt_blue {
+    padding: 0px 10px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background: #037803;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -mo-border-radius: 2px;
+    font-family: "氓戮庐猫陆炉茅鈥衡�茅禄鈥�;
+    font-size: 12px;
+}
+.bnt_blue_1 {
+    background: url(images/btn-bg.png) no-repeat;
+    width: 170px;
+    height: 32px;
+    text-align: center;
+    line-height: 21px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline:none;
+    font-family:"氓戮庐猫陆炉茅鈥衡�茅禄鈥�;
+}
+.bnt_blue_2 {
+    padding:0px 10px;
+    text-align: center;
+    line-height: 25px;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+    background:#037803;
+    border-radius:2px;
+    -webkit-border-radius:2px;
+    -mo-border-radius:2px;
+    font-family:"氓戮庐猫陆炉茅鈥衡�茅禄鈥�;
+    font-size:12px;
+}
+.bnt_bonus {
+    padding:0px 30px;
+    text-align: center;
+    line-height: 28px;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+    background:#037803;
+    border-radius:2px;
+    -webkit-border-radius:2px;
+    -mo-border-radius:2px;
+    font-family:"氓戮庐猫陆炉茅鈥衡�茅禄鈥�;
+    font-size:14px;
+}
+.bnt_bonus_a{
+    display:block;
+    height:28px;
+    width:100px;
+    background:#037803;
+    text-align: center;
+    color:#fff;
+    line-height:28px;
+    border: none;
+    border-radius:2px;
+    -webkit-border-radius:2px;
+    -mo-border-radius:2px;
+}
+/*忙篓隆氓聺鈥斆ヂ姑モ劉篓*/
+.box {
+    /*background: #000000;*/
+    overflow: hidden;
+}
+.box_1 {
+    background-color: #000000;
+    padding:10px;
+}
+.box_2 {
+    border: 1px solid #c5e4ff;
+    background: url(images/box_2Bg.gif) repeat-x top left;
+    background-color: #edf8fe;
+    overflow: hidden;
+}
+.boxCenterList {
+    padding: 8px;
+}
+
+.boxCenterList .goodsprourty tr{
+    background-color: #121212;
+    color: #9d9d9d;
+    border: 1px solid gray;
+    border-collapse:collapse;
+    zoom:1;
+}
+/*忙篓隆氓聺鈥斆β犫�茅垄藴*/
+h3 {
+    height: 33px;
+    line-height: 33px;
+    font-size: 12px;
+    text-align: right;
+    padding: 0 12px;
+    padding-top:8px;
+    font-weight: 100;
+    /*border-bottom:1px solid #272727;*/
+    /*border-top:1px solid #272727;*/
+    color:#9d9d9d;
+    background:#111;
+}
+h3.border {
+    border: 1px solid #c5e4ff;
+    border-bottom: none;
+}
+h3 img {
+    position: relative;
+    top: 7px;
+}
+
+h3 span {
+    float: left;
+    background: url(images/bg.gif) no-repeat 0px -570px;
+    width: auto;
+    height: 33px;
+    line-height: 33px;
+    text-align: left;
+    font-weight: bold;
+    color: #01ff00;
+    padding-left: 12px;
+    font-size:14px;
+}
+
+h5 {
+    height:26px; 
+    line-height:26px; 
+    text-align:right; 
+    background-color: #000000;
+    font-size: 18px;
+    color: #037002; 
+    padding:0 10px 0 0;
+}
+h5 span {
+    float: left;
+    font-size:16px;
+    color:#01ff00;
+}
+h6 {
+    height: 23px;
+    line-height: 23px;
+    text-align: right;
+    font-size: 12px;
+    color: #3f3f3f;
+    /*border-bottom: 1px solid #afafaf;*/
+    padding-right: 10px;
+}
+h6 span {
+    float: left;
+    /*padding-left: 15px;*/
+    color:#01ff00;
+    padding-right: 4px;
+}
+.cash{
+    color:#c50000;
+}
+/*茅隆碌茅聺垄莽鈥⑩劉莽鈩⒙�/
+.blank {
+    height: 8px;
+    line-height: 8px;
+    clear: both;
+    visibility: hidden;
+}
+.blank5 {
+    height: 5px;
+    line-height: 5px;
+    /* _margin: -3px 0;*/
+    clear: both;
+    visibility: hidden;
+}
+.gap{
+    height:20px;
+    clear: both;
+}
+
+/*氓赂茠氓卤鈧�/
+.AreaL {
+    width: 260px;
+    float: left;
+    /*margin-left:10px;*/
+}
+.AreaR {
+    float: right;
+    width:932px;
+    background:#000;
+}
+.AreaC {
+    width:1200px;
+    overflow:hidden;zoom:1;
+    background:#000000;
+}
+.Areaflow {
+    width:1160px;
+    overflow:hidden;zoom:1;
+    margin-top:30px;
+    background:#000000;
+    padding:0 20px 20px 20px;
+}
+/* ==================== 氓炉录猫藛陋茅茠篓氓藛鈥�
+====================*/
+/*茅隆露茅茠篓莽庐隆莽聬鈥犆ヅ锯�氓炉录猫藛陋*/
+.log {
+    height: 50px;
+}
+.log li {
+    float: left;
+}
+.log .userInfo {
+    *margin-right: 10px;
+    /*width: 300px;*/
+    text-align: left;
+}
+.log .userInfo a {
+    color: #006acd;
+    text-decoration: none;
+}
+.log li img {
+    position: relative;
+    top: 5px;
+}
+#topNav {
+    background: url(images/topNavBg.gif) no-repeat left top;
+    height: 31px;
+    line-height: 31px;
+    color: #bebfc1;
+    padding: 0px 15px;
+    margin: 0px 10px;
+    position: relative;
+}
+#topNav .topNavR {
+    background: url(images/topNavR.gif) no-repeat;
+    width: 5px;
+    height: 31px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#topNav a {
+    color: #006ad0;
+    text-decoration: none;
+}
+/*茅隆碌茅聺垄盲赂禄氓炉录猫藛陋*/
+#mainNav {
+    padding: 0 25px;
+    width: 910px;
+}
+#mainNav a {
+    display: block;
+    height: 26p;
+    float: left;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 15px;
+    background: url(images/NavBg.gif) no-repeat 0 -29px;
+    position: relative;
+    margin-right: 2px;
+    color: #026acb;
+    text-decoration: none;
+}
+#mainNav a span {
+    width: 3px;
+    height: 26px;
+    background: url(images/NavBg.gif) no-repeat 0 -88px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#mainNav a: hover {
+    display: block;
+    height: 26p;
+    float: left;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 15px;
+    background: url(images/NavBg.gif) no-repeat 0 0;
+    position: relative;
+    margin-right: 2px;
+    color: #fff;
+    text-decoration: none;
+}
+#mainNav .cur {
+    display: block;
+    height: 26p;
+    float: left;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 15px;
+    background: url(images/NavBg.gif) no-repeat 0 0;
+    position: relative;
+    margin-right: 2px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+#mainNav a: hover span,#mainNav .cur span {
+    width: 3px;
+    height: 26px;
+    background: url(images/NavBg.gif) no-repeat 0 -59px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+/*忙聬艙莽麓垄*/
+#search {
+    border: 1px solid #5cb4e6;
+    background: url(images/searchBg.gif) repeat-x left top;
+    width: 918px;
+    padding: 0px 20px;
+    height: 36px;
+    line-height: 36px;
+}
+#search a {
+    color: #fff;
+    text-decoration: none;
+}
+#search .keys {
+    background: url(images/bg.gif) no-repeat 0 -28px;
+    color: #fff;
+    padding-left: 40px;
+}
+#search .go {
+    background: url(images/bnt_search.gif);
+    border: none;
+    width: 52px;
+    height: 19px;
+    /* position: relative;
+    top: 2px;
+    utf8盲赂鈥�/
+
+}
+/*氓陆鈥溍モ�聧盲陆聧莽陆庐*/
+
+	#ur_here {
+	height: 36px;
+	line-height: 36px;
+	/*padding: 0 12px;*/
+	background:#000000;
+	color:#9d9d9d;
+
+}
+#ur_here code{
+    color: #9d9d9d;
+}
+#ur_here a {
+    color:#01ff00;
+    text-decoration: none;
+}
+/* ==================== 忙篓隆氓聺鈥�
+====================*/
+/*猫麓颅莽鈥奥┟铰�/
+/*	.cart {
+        background: url(images/catBg.gif) no-repeat left top;
+        padding: 15px 10px 15px 50px;
+        color: #006bcd;
+        height: 50px;
+        _padding: 12px 10px 15px 50px;
+}*/
+.cart a {
+    color: #006bcd;
+    text-decoration: none;
+}
+.cart a:hover {
+    color: #006bcd;
+    text-decoration: underline;
+}
+/*氓鈥⑩�氓鈥溌伱ニ嗏�莽卤禄*/
+#category_tree {
+    border: 1px solid #333;
+    /*background-color: #fff;*/
+    color:#9d9d9d;
+}
+#category_tree dl {
+    margin: 6px;
+}
+#category_tree dt {
+    /*background:#111 url(images/lineBg.gif) repeat-x left bottom;*/
+    color: #3f3f3f;
+    padding: 2px 0 3px 12px;
+    width:216px;
+    background: #111;
+}
+#category_tree dt a {
+    background: url(images/bg.gif) no-repeat 0 -65px;
+    color: #008800;
+    padding-left: 15px;
+    text-decoration: none;
+}
+#category_tree dd {
+    padding: 3px 0 3px 10px;
+}
+#category_tree dd a {
+    /*color: #404040;*/
+    text-decoration: none;
+}
+#category_tree dd a: hover {
+    color: #ff6600;
+    text-decoration: none;
+}
+/*茅鈥濃偓氓鈥澛ε解�猫隆艗*/
+.top10Tit {
+    background: url(images/bg.gif) no-repeat 0px -85px;
+    height: 30px;
+}
+.top10List {
+    border: 1px solid #d7ecfd;
+    background-color: #fff;
+    margin: 0px 4px 4px 4px;
+}
+.top10List ul {
+    border-bottom: 1px solid #e2f3fd;
+    position: relative;
+}
+.top10List .iteration {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+.top10List .iteration1 {
+    padding-left: 3px;
+}
+.top10List li.topimg {
+    width: 35px;
+    height: 35px;
+}
+.top10List .samllimg {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 4px;
+}
+.top10List li {
+    padding: 3px 3px 3px 23px;
+    float: left;
+}
+/*linkCOLOR*/
+.top10List li a,#mallNews .NewsList li a,.boxCenterList li a {
+    color: #a0a0a0;
+    text-decoration: none;
+}
+.top10List li a: hover,#mallNews .NewsList li a: hover,.boxCenterList li a: hover {
+    color: #ff6600;
+    text-decoration: none;
+}
+/*茅娄鈥撁┞÷得р�娄莽鈥毬姑モ�戮*/
+#focus {
+    border-right: 1px solid #c5e4ff;
+    padding: 8px;
+    background: url(images/foucsBg.gif) repeat-x left top;
+}
+#mallNews {
+    width: 230px;
+    padding: 8px 8px 0px 8px;
+    background: url(images/foucsBg.gif) repeat-x left top;
+}
+#mallNews .NewsTit {
+    background: url(images/bg.gif) 0px -132px;
+    height: 23px;
+}
+#mallNews .NewsList {
+    background: #FFFFFF;
+    padding: 8px;
+}
+#mallNews .NewsList ul {
+    margin-top: 10px;
+}
+#mallNews .NewsList li {
+    background: url(images/bg.gif) no-repeat 0px -167px;
+    padding: 0px 0px 0px 10px;
+    text-align: left;
+}
+/*盲禄艩忙鈥斅ッр�鹿盲禄路氓鈥櫯捗モ�聛莽鈥芭�/
+#sales {
+    width: 500px;
+    background: url(images/salesBg.gif) repeat-x left bottom;
+    border-bottom: 2px solid #f0f1f3;
+    background-color: #eef8ff;
+}
+#sales h1 {
+    font-size: 12px;
+    background: url(images/salesTitBg.gif) no-repeat;
+    height: 33px;
+    text-align: right;
+}
+#sales h1 img {
+    position: relative;
+    top: 10px;
+    right: 8px;
+}
+#sales .goodBox {
+    margin: 10px 0px 10px 10px;
+    _margin-left: 5px;
+}
+#sales .goodBox .goodList p {
+    text-align: left;
+    color: #3f3f3f;
+}
+#sales .goodBox .goodList p a {
+    color: #3f3f3f;
+    text-decoration: none;
+}
+#sales .goodBox .goodList p a: hover {
+    color: #ff6600;
+    text-decoration: none;
+}
+#sales .goodList {
+    width: 110px;
+    margin: 0px 5px 0px 5px;
+    float: left;
+}
+#sales .goodList img {
+    background: url(images/salesGoodBg.gif) no-repeat;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+#sales .goodList p {
+    margin-top: 3px;
+    text-align: center;
+}
+#brands {
+    width: 247px;
+    height: 199px;
+    *height: 201px;
+    padding: 1px 0 0 1px;
+    position: relative;
+}
+#brands .brandsMore {
+    position: absolute;
+    left: 178px;
+    bottom: 10px;
+    width: 65px;
+    height: 41px;
+}
+#brands .brandsMore img {
+    border: none;
+    width: 65px;
+    height: 41px;
+}
+#brands img {
+    width: 78px;
+    height: 40px;
+    border: 1px solid #c5e4ff;
+}
+#brands a {
+    color: #0069cd;
+    text-decoration: none;
+    margin: 2px 1px;
+    display: block;
+    float: left;
+}
+.brandsIe6 {
+    _width: 250px;
+}
+/*氓艙篓ie6盲赂鈥姑р�鹿盲禄路氓鈥⑩�氓鈥溌伱ぢ嘎嵜ヂ溍ヅ撀♀�猫炉聺氓鈥溌伱р�艗忙沤篓猫聧聬忙掳赂猫驴艙茅聺聽氓聫鲁忙藴戮莽陇潞*/
+/*莽虏戮氓鈥溌伱ε铰嵚惷寂捗︹�掳氓鈥溌伱ぢ概犆ヂ糕�茂录艗莽茠颅氓聧鈥撁モ�鈥犆モ�聛*/
+
+.centerPadd {
+    width:1155px;
+    overflow:hidden;
+    margin-left: 12.5px;
+}
+.itemTit {
+    height: 30px;
+    background: url(images/bg.gif) no-repeat 0px -195px;
+    padding-left: 190px;
+    text-align: right;
+    /*margin-bottom: -3px;
+    _margin-bottom: -2px;*/
+
+}
+.itemTit.New {
+    background: url(images/bg.gif) no-repeat 0px -225px;
+}
+.itemTit.Hot {
+    background: url(images/bg.gif) no-repeat 0px -256px;
+}
+.itemTit img {
+    position: relative;
+    top: 7px;
+}
+/*氓沤鈥犆ヂ徛裁懊ヂ解�莽拧鈥灻モ�戮莽鈥扳�忙聽路氓录聫*/
+.liulan {
+    /*border:1px solid #272727;*/
+    border-top:hidden;
+    clear:both;
+    text-align:center;
+}
+.liulan  img{
+    /*width:230px;
+    height:230px;*/
+
+    width:100px;
+    height:100px;
+
+    float:left;
+    margin-right:10px;
+}
+.liulan p{
+    padding:0px;
+    margin:0px;
+    padding-top:20px;
+    line-height:24px;
+    color:#fff;
+}
+.liulan li{
+    color:#01ff00;
+}
+.itemTit h2 {
+    float: left;
+    height: 27px;
+    background: url(images/itemH2Bg.gif) repeat-x left top;
+    border: 1px solid #d6ecff;
+    font-size: 12px;
+    text-align: center;
+    color: #3f3f3f;
+    font-weight: 100;
+    padding: 0px 10px;
+    line-height: 28px;
+    margin: 0 6px 0 0;
+    border-bottom: none;
+    position: relative;
+    bottom: -3px;
+    display: inline;
+    white-space: nowrap;
+}
+.itemTit h2 a {
+    color: #3f3f3f;
+    text-decoration: none;
+}
+.itemTit .h2bg {
+    height: 27px;
+    line-height: 28px;
+    border: none;
+    background: none;
+    font-size: 12px;
+    text-align: center;
+    color: #006ace;
+    font-weight: 100;
+    padding: 0px 10px;
+    display: inline;
+    white-space: nowrap;
+}
+.itemTit .h2bg a {
+    color: #006ace;
+    text-decoration: none;
+}
+.centerPadd .goodsBox {
+}
+.centerPadd .goodsBox .more {
+    text-align: right;
+    clear: both;
+    margin: 0 8px 8px 0;
+}
+/*氓聧鈥⒚ぢ嘎モ�鈥犆モ�聛*/
+
+.goodsItem {
+    width: 209px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border:1px solid #272727;
+    height: 270px;
+    padding: 20px 10px;
+    /*margin:-1px -1px 0 0;*/
+    color:#9d9d9d;
+}
+
+.goodsItem .goodsimg {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 4px;
+}
+.goodsItem img {
+    width: 52px;
+    height: 17px;
+}
+.goodsItem p {
+    text-align: center;
+    color: #ffffff;
+    padding:5px 0 0 15px;
+}
+.goodsItem .goods-info{
+    color:#9d9d9d;
+}
+
+.goodsItem p a {
+    /*color: #ffffff;*/
+    text-decoration: none;
+}
+.goodsItem p a: hover {
+    color: #ff6600;
+    text-decoration: none;
+}
+.goodsItem span {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.goodsItem span.best {
+    background: url(images/bg.gif) no-repeat 0px -304px;
+}
+.goodsItem span.news {
+    background: url(images/bg.gif) no-repeat -75px -304px;
+}
+.goodsItem span.hot {
+    background: url(images/bg.gif) no-repeat -161px -304px;
+}
+/*氓赂庐氓艩漏*/
+.helpTitBg {
+    background: url(images/helpTitBg.gif) repeat-x left top;
+    text-align: left;
+    border: 1px solid #c5e4ff;
+    background-color: #fff;
+    padding: 0 0 10px 15px;
+}
+.helpTitBg dl {
+    float: left;
+    margin-right: 30px;
+    _margin-right: 20px;
+    _width: 130px;
+}
+.helpTitBg dt {
+    background: url(images/bg.gif) no-repeat 0px -570px;
+    width: auto;
+    height: 33px;
+    line-height: 33px;
+    text-align: left;
+    font-weight: bold;
+    color: #56a5ee;
+    padding-left: 12px;
+    margin-bottom: 8px;
+}
+.helpTitBg dt a {
+    font-weight: bold;
+    color: #56a5ee;
+    text-decoration: none;
+}
+.helpTitBg dd a {
+    color: #006acd;
+    text-decoration: none;
+    background: url(images/bg.gif) no-repeat 0px -170px;
+    padding: 0px 0px 0px 10px;
+}
+/*莽鈥郝该モ�鲁氓鈥⑩�氓鈥溌�/
+.boxCenterList ul {
+    height: 1%;
+    margin-bottom: 5px;
+}
+.boxCenterList li {
+    float: left;
+    width: 120px;
+}
+.boxCenterList li.goodsimg {
+    /*width: 48px;*/
+    margin-right: 10px;
+}
+.boxCenterList li.goodsimg img {
+    width: 168px;
+    height: 168px;
+    display: block;
+    border:1px solid #444;
+    margin-left:-10px;
+}
+/*莽鈥郝该モ�鲁忙鈥撯�莽芦聽(氓鈥β睹ヂ捗ヂ嘎γε撯�氓掳聫盲赂鈥懊р�莽鈥毬姑♀�忙鈥撯�氓颅鈥斆ニ嗏�猫隆篓氓鈥β泵р�篓)*/
+.RelaArticle a,.alone {
+    /*background: url(images/bg.gif) no-repeat 0px -170px;*/
+    padding: 0px 0px 0px 10px;
+    color: #3f3f3f;
+    text-decoration: none;
+}
+.RelaArticle a: hover {
+    /*background: url(images/bg.gif) no-repeat 0px -170px;*/
+    padding: 0px 0px 0px 10px;
+    color: #ff6600;
+    text-decoration: none;
+}
+/*忙碌聫猫搂藛氓沤鈥犆ヂ徛裁寂捗︹�露猫鈥斅�/
+.history h2 {
+    height: 26px;
+    line-height: 26px;
+    padding: 7px 25px;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    color: #008800;
+    margin: 6px 6px 0 0;
+    border-bottom: none;
+    background-color: #000;
+    /*border-top: 2px solid #01ff00;
+    border-left: 1px solid #01ff00;
+    border-right: 1px solid #01ff00;*/
+}
+.history .h2bg {
+    height: 26px;
+    line-height: 26px;
+    padding: 5px 25px;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    color: #a0a0a0;
+    margin: 6px 6px 0 0;
+    border: none;
+    background-color: #111;
+}
+#history li {
+    width: 100%;
+}
+#clear_history a {
+    background: none;
+    padding: 0px;
+    color: #3f3f3f;
+    text-decoration: none;
+    float: right;
+    cursor: pointer;
+}
+.colle a {
+    background: none;
+    padding: 0px;
+    color: #3f3f3f;
+    text-decoration: none;
+}
+.colle a: hover {
+    background: none;
+    padding: 0px;
+    color: #ff6600;
+    text-decoration: none;
+}
+/* ==================== 氓鈥⑩�氓鈥溌伱γζ掆�茅隆碌茅聺垄茅茠篓氓藛鈥犆β∶ヂ濃�
+====================*/
+.self-ada{
+    /*background:#4d4d4d;*/
+    background:#111;
+    overflow:hidden;zoom:1;
+}
+#goodsInfo {
+    background: #000000;
+    /*padding: 20px;*/
+    /*padding-right:20px;*/
+    /*padding-top:20px;*/
+    /*padding-bottom:20px;*/
+    _height: 1%;
+    overflow:hidden;
+    zoom:1;
+}
+#goodsInfo .imgInfo {
+    width: 400px;
+    float: left;
+    overflow: hidden;
+    background:#1f1f1f;
+    /*background:#222;*/
+    padding:20px 25px;
+}
+#goodsInfo .imgInfo .thumb {
+    width: 230px;
+    height: 230px;
+    display: block;
+}
+#goodsInfo .imgInfo img{
+    /*width:400px;
+    height:400px;*/
+}
+/*氓鈥⑩�氓鈥溌伱γζ掆�氓鈥郝久р�鈥�/
+#goodsInfo span {
+    width: 4px;
+    height: 48px;
+    /*background: url(images/bg.gif) no-repeat 0 -527px;*/
+    float: left;
+}
+#goodsInfo span.spanR {
+    width: 4px;
+    height: 48px;
+    background: url(images/bg.gif) no-repeat -5px -527px;
+    float: right;
+}
+#goodsInfo .gallery {
+    width: 370px;
+    float: left;
+    margin-left: 10px;
+    _margin-left: 5px;
+    overflow: hidden;
+}
+#goodsInfo .gallery ul {
+    width: auto;
+}
+#goodsInfo .gallery li {
+    float: left;
+    width: 48px;
+    margin: 0 2px;
+}
+#goodsInfo .gallery li img {
+    width: 46px;
+    height: 46px;
+    display: block;
+}
+/*忙鈥撯�氓颅鈥斆ぢ柯∶β伮�/
+#goodsInfo .textInfo {
+    background: #000;
+
+    /*background: #1e1e1e;*/
+
+    width: 710px;
+    float: left;
+    padding: 20px;
+    color:#9d9d9d;
+    height:481px;
+    overflow:hidden;
+    min-height:458px;//IE7\FF
+    height:100%;//IE6\IE7\FF 猫驴鈩⒚ぢ嘎ヂ舅喢┾�聧猫娄聛茂录艗IE6氓庐拧忙颅禄茅芦藴氓潞娄氓聬沤茂录艗茅艙鈧β伱モ�聧氓艩聽盲赂艩猫驴鈩⒚β澛∶寂捗︹�聧猫茠陆猫鈥÷ヅ犅ヂ宦睹ぢ悸该ｂ偓鈥�
+    _height:458px;//IE6
+}
+#goodsInfo .textInfo .clearfix{
+    clear:both;
+    overflow:hidden;zoom:1;
+}
+.clearfix .good-info{
+    font-size:14px;
+    clear:both;
+    margin-left:10px;
+}
+#goodsInfo .textInfo .f_l {
+    font-size: 18px;
+    padding: 0 5px 5px 8px;
+    color:#FFF;
+}
+#goodsInfo .textInfo ul {
+
+}
+#goodsInfo .textInfo li {
+    padding: 0px 8px;
+    _height: 1%;
+}
+#goodsInfo .textInfo li.padd {
+    clear:both;
+    padding: 20px 0px 7px 8px;
+    border-top:1px dashed #565656;
+    /*margin-top:20px;*/
+}
+#goodsInfo .textInfo li dd {
+    width: 44%;
+    float: left;
+    padding: 7px 0px;
+}
+#goodsInfo .textInfo li dd.ddR {
+    width: 44%;
+    padding-left: 8px;
+}
+#goodsInfo .textInfo li dd.ddL {
+}
+#goodsInfo .textInfo a {
+    color: #008800;
+    text-decoration: none;
+    font-size: 16px;
+}
+#goodsInfo .textInfo a:HOVER {
+    color: #42CA38;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#goodsInfo .textInfo a.Q-buy-btn{
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 2px;
+    background-color: #FF4401;
+    float: right;
+    margin-right: 150px;
+    font-size: 15px;
+    color: #eee;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    line-height: 28px;
+    -webkit-border-radius: 2px;
+}
+#goodsInfo .textInfo a.Q-buy-btn:HOVER{
+    background-color: #F22D00;
+}
+
+
+
+#goodsInfo .textInfo .loop {
+    color:#9d9d9d;
+    margin-top: 8px;
+    clear:both;
+}
+.z_buy{
+    margin-left:80px;
+}
+/*莽鈥澛λ喡访�猫庐潞*/
+.ie6 {
+    padding-left: 25px;
+    _padding-left: 15px;
+    height: 1%;
+}
+/*猫麓颅盲鹿掳忙颅陇氓鈥⑩�氓鈥溌伱♀�盲潞潞猫驴藴猫麓颅盲鹿掳莽拧鈥灻モ�鈥犆モ�聛*/
+.comments li {
+    /*background: url(images/lineBg.gif) repeat-x left bottom;*/
+    border-bottom:1px dashed #111;
+    padding: 3px 8px;
+    width: 97%;
+    _height: 1%;
+    text-align: left;
+    position: relative;
+    margin-bottom: 8px;
+}
+.comments li img {
+    position: absolute;
+    right: 0px;
+    top: 3px;
+}
+.comments li p {
+    margin: 3px auto;
+    text-align: left;
+    /*color:#272727;*/
+}
+.commentsList {
+    border: 1px solid #272727;
+    background: #000;
+    padding: 10px;
+    color:#FFF;
+}
+.commentsList .inputBorder {
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.captcha {
+    margin-left: 0px;
+    position: relative;
+    top: -1px;
+    *margin-left: 8px;
+    *position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+/* ==================== 氓鈥溌伱р�艗忙沤篓猫聧聬
+====================*/
+/*氓鈥溌伱р�艗氓藛鈥斆÷�/
+#brandList {
+    background: url(images/brandBg.gif) repeat-y top center;
+    margin-top: 12px;
+    height: 1%;
+}
+#brandList .brandBox {
+    width: 240px;
+    _width: 236px;
+    float: left;
+    margin: 0 5px 20px 5px;
+    text-align: center;
+    overflow: hidden;
+    height: 160px;
+}
+#brandList .brandBox .brandLogo {
+    width: 188px;
+    height: 52px;
+    overflow: hidden;
+}
+#brandList .brandBox h4 {
+    height: 23px;
+    line-height: 23px;
+    background: #e9e9e9;
+    margin: 15px 0 8px 0;
+    padding: 0 10px;
+    text-align: right;
+    font-weight: 100;
+    font-size: 12px;
+}
+#brandList .brandBox h4 span,#brandList .brandBox h4 span a {
+    float: left;
+    font-weight: bold;
+    color: #3f3f3f;
+    text-decoration: none;
+}
+#brandList p {
+    text-align: left;
+    margin-bottom: 5px;
+    color: #909090;
+    padding: 8px;
+}
+#brandList p.brandCategory,#brandList p.brandCategory a {
+    text-align: left;
+    color: #006acd;
+    text-decoration: none;
+}
+#brandList .brandArticle {
+    border: 1px dashed #d9d9d9;
+    background: #f8f8f8;
+    text-align: left;
+}
+.brandCategoryA a {
+    margin-right: 15px;
+}
+/* ==================== 莽鈥澛λ喡访ぢ嘎ヂ科�
+====================*/
+/*start茂录拧氓录聽忙聧路氓垄啪氓艩聽*/
+.box_1 .userCenterBox {
+    background-color: #000000;
+    color:#9d9d9d;
+    padding:20px;
+}
+.box_1 .userCenterBox table th{
+    background-color: #1d1d1d;
+    color:#9d9d9d;
+}
+.box_1 .userCenterBox table td{
+
+    /*background-color: #121212;*/
+    color:#9d9d9d;
+
+}
+.box_1 h3 span {
+	float: left;
+	background: url(images/bg.gif) no-repeat 0px -570px;
+	width: auto;
+	height: 33px;
+	line-height: 33px;
+	text-align: left;
+	font-weight: bold;
+	color: #01ff00;
+	padding-left: 12px;
+	font-size:14px;
+}
+.AreaL .box_1 .head{
+    width:200px;
+    height:190px;
+    background:#1d1d1d;
+    text-align:center;
+    padding:10px 0 0 0;
+}
+.AreaL .box_1 .head img{
+    width:180px;
+    height:180px;
+}
+.AreaL .box_1 .personal_name{
+    display:block;
+    margin-top:10px;
+    text-align:center;
+    font-size:14px;
+    color:#01ff00;
+}
+.biaoge tbody.hover{
+    border-color: #bfbfbf;
+}
+.biaoge {
+    background:#262626;
+    border-color: inherit;
+}
+
+/* 忙藛鈥樏♀�猫庐垄氓聧鈥⒚β犅访ヂ悸�*/
+.orders-table{
+    border:1px solid #222;
+}
+.orders-table:HOVER{
+    border:1px solid #555;
+}
+.orders-table td{
+    border-right:1px solid #222;
+    border-top:1px solid #222;
+}
+
+.orders-table .products img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    float: left;
+}
+.orders-table .products .products-name{
+    height: 60px;
+    margin: 10px 0 0 0;
+    float: left;
+}
+
+
+
+
+.listnumtable:hover{
+    border-color:#555;	
+}
+.lineblank{
+    height:10px;
+}
+.listnumtable tr td{
+    width:200px;
+
+}
+.biaoge tr td{
+    background:#000;
+
+}
+.biaoge .bg_headtop {
+    background:red;
+}
+.biaoge .bg_head  td, .biaoge .bg_head  th{
+    background:#1d1d1d;
+}
+.personal_ziliao{
+    /*background:#0f0f0f;*/
+    border-collapse:collapse;
+}
+.personal_ziliao td{
+    border:1px solid #222;
+}	
+/*end茂录拧氓录聽忙聧路氓垄啪氓艩聽*/
+
+.box_1 .userCenterBox .gonggao{
+    margin:5px 0;
+    padding:10px 20px; 
+    background-color:#2b2b2b;
+}
+.usBox {
+    background: #000000;
+    padding: 20px;
+    width: 1160px;
+    overflow:hidden;
+    zoom:1;
+    margin: 0 auto;
+}
+.usBox_1 {
+    background: #171717;
+    text-align: left;
+    width: 297px;
+    height: 208px;
+    padding: 43px 153px 60px 123px;
+    color:#FFF;
+}
+.usBox_1 .logtitle {
+    height: 30px;
+    font-size:18px;
+    color:#01ff00;
+}
+.login .inputBg{
+    width:200px;
+    height:28px;
+    border:0px;
+    padding: 0 10px;
+}
+.us_Submit {
+    border: none;
+    width: 115px;
+    height: 40px;
+    background: url(images/bnt_ur_log.gif);
+}
+.us_Submit_reg {
+    border: none;
+    width: 170px;
+    height: 32px;
+    background: url(images/bnt_ur_reg.png);
+}
+.usTxt {
+    width: 265px;
+    height: 267px;
+    padding: 43px 0 0 90px;
+    text-align: left;
+    line-height: 23px;
+    color:#9d9d9d;
+}
+.usTxt img {
+    margin-top: 15px;
+}
+.userMenu .erjiMenu {
+    padding:0 0 0 10px;
+
+}
+.userMenu .erjiMenu a{
+    font-size:12px;
+}
+
+.box_1 .userCenterBox .userMenu a:link{color:#9d9d9d;}
+.box_1 .userCenterBox .userMenu a:visited{color:#9d9d9d;}
+.box_1 .userCenterBox .userMenu a:hover{color:#01ff00;}
+.box_1 .userCenterBox .userMenu a:active{color:#01ff00;}
+/*忙鲁篓氓鈥犈�/
+.usBox_2 {
+    text-align: left;
+    padding: 50px 153px 60px 203px;
+    color:#FFF;
+}
+.usBox_2 .regtitle {
+    height: 30px;
+    font-size:18px;
+    color:#01ff00;
+}
+.actionSub a {
+    color: #006acc;
+    text-decoration: underline;
+    background: url(images/ur_bg.gif) no-repeat 0px -68px;
+    padding-left: 14px;
+}
+
+.box_1 .userCenterBox .userMenu a {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    color: #9d9d9d;
+    text-decoration: none;
+    margin: 0 0 3px 0px;
+    padding-left: 3px;
+    font-size:14px;
+}
+.box_1 .userCenterBox .userMenu a.titles {
+    font-weight: bold;
+    background-color: #222;
+    color: #ddd;
+}
+.box_1 .userCenterBox .userMenu a.curs {
+    color: #01ff00;
+}
+
+.box_1 .userCenterBox .userMenu a img {
+    margin-right: 3px;
+}
+.msgBottomBorder {
+    clear: both;
+    /*background: url(images/lineBg.gif) repeat-x left bottom;*/
+    border-bottom:1px solid #333;
+    padding-bottom: 25px;
+    margin-bottom: 8px;
+    line-height: 20px;
+    color: #9d9d9d;
+}
+/* ==================== 氓鈥⑩�氓鈥溌伱ニ嗏�莽卤禄茅隆碌茅聺垄
+====================*/
+/*氓卤啪忙鈧烩�氓聬藛忙聬艙莽麓垄*/
+.screeBox {
+    padding: 10px;
+}
+.screeBox strong{
+    width: 36px;
+    display: inline-block;
+    text-align: right;
+    color:#9d9d9d;
+}
+.screeBox a {
+    color: #717171;
+}
+.screeBox span {
+    background: #037803;
+    padding: 3px 5px;
+    margin: 0 3px;
+    color:#FFF;
+}
+.sort{
+    color:#9d9d9d;
+}
+.sort a {
+    position: relative;
+    bottom: 5px;
+}
+.sort input {
+    position: relative;
+    top: 3px;
+}
+/*氓鈥⑩�氓鈥溌伱ニ嗏�猫隆篓忙藴戮莽陇潞忙鈥撀姑ヂ悸�/
+.goodsList {
+    padding: 10px 10px 0 20px;
+}
+.goodsList ul {
+    margin-bottom: 10px;
+    overflow:hidden;
+    zoom:1;
+}
+.goodsList ul#bgcolor {
+    border-top: 1px dashed #282828;
+    line-height:27px;
+    border-bottom: 1px dashed #282828;
+
+}
+
+.goodsList li {
+    float: left;
+    padding-top: 8px;
+    color:#9d9d9d;
+}
+.goodsList li.thumb {
+    width: 80px;
+    text-align: center;
+}
+.goodsList li.thumb img {
+    width: 80px;
+    height: 80px;
+    padding: 1px;
+}
+.goodsList li.goodsName {
+    width: 290px;
+    margin-right: 10px;
+    /*color:#FFF;*/
+    padding:10px 0 0 20px;
+}
+.goodsList li.goodsl-list font{
+    width: 290px;
+    margin-right: 10px;
+    color:#FFF;
+    padding:10px 0 0 20px;
+}
+.goodsList li.action {
+    float: right;
+    margin-left: 10px;
+}
+.goodsList li.action a.abg {
+    /*background: url(images/shouc.png) no-repeat;*/
+    padding-left: 18px;
+    position: relative;
+    bottom: 5px;
+    color:#008800;
+    font-size: 14px;
+    margin-right:20px;
+    top: 5px;
+}
+.goodsList li.action a:hover {
+    color: #42CA38;
+    text-decoration: none;
+    font-size: 14px;
+}
+/* ==================== 氓鈥郝⒚绰�
+====================*/
+.group {
+    background: #f2f2f2;
+    padding: 8px;
+}
+.group li {
+    float: left;
+    background: #fff;
+    padding: 8px;
+}
+/* ==================== 猫麓颅莽鈥奥┟β德伱ㄢ�  ====================*/
+.flowBox {
+
+}
+.loginBox{
+    position:relative;
+  
+    width:100%;
+    height:500px;
+}
+
+.loginBox .adBox{
+  position:relative;
+  float: left;
+  width:60%;
+  height:100%;
+ 
+  overflow:hidden;
+  text-align: center;
+}
+.loginBox .adBox table{
+    width: 100%;
+}
+.loginBox .adBox img{
+  width:80%;
+  padding-top:50px;
+}
+.loginBox .loginTab{
+
+  position:relative;
+  float: right;
+  width:40%;
+  height:100%;
+  overflow:hidden;
+  text-align: center;
+}
+.loginBox .loginTab .div{
+    padding-top:50px;
+    text-align: left;
+    width:90%;
+}
+.loginBox .loginTab .div table{
+    width:100%;
+}
+
+
+.flowBox table {
+    margin: 5px auto;
+}
+.flowBox .flowBox_table{
+    background:#222;
+    color:#9d9d9d;
+}
+.flowBox .flowBox_table tr th{
+    background:#121212;
+    border: 0px solid #272727;
+}
+.flowBox .flowBox_table tr td{
+    background:#121212;
+    /*border:1px solid #262626;*/
+    border-collapse:collapse;
+}
+.flowBox .flow_sum{
+    color:#FFF;
+}
+.flowBox .flow_cart input{
+    background:none;
+    border:0px;
+    color:#FFF;
+    font-family:"氓戮庐猫陆炉茅鈥衡�茅禄鈥�;
+    outline:none;
+    cursor:pointer;
+}
+.flow_zhifu{
+    color:#FFF;
+}
+.flow_zhifu strong{
+    color:#ff0000;
+}
+.flow_login table{
+    width: 100%;
+    height: 250px;
+    color:#FFF;
+    /*background-color: #171717;*/
+    /*border:1px solid #333;*/
+
+}
+.flow_login .flow_input{
+    width:200px;
+    height:25px;
+    border:0px;
+    padding: 2px 5px;
+}
+.flow_yue,.flow_yue tr td a{
+    color:#FFF;
+}
+/*2.62氓艙篓猫麓颅莽鈥奥┟铰γ┾�艗茅聺垄忙藴戮莽陇潞莽鈥郝该モ�鲁茅鈥β嵜ぢ宦�/
+.flowGoodsFittings {
+    padding: 10px;
+}
+.flowGoodsFittings ul {
+    height: 1%;
+    margin: 5px 4px;
+    float: left;
+}
+.flowGoodsFittings li {
+    /*float: left;*/
+    /*width: 120px;*/
+}
+.flowGoodsFittings li.goodsimg {
+    /*width: 48px;*/
+    /*margin-right: 10px;*/
+}
+.flowGoodsFittings li.goodsimg img {
+    /*width: 48px;*/
+    /*height: 48px;*/
+    /*display: block;*/
+}
+.order_total{
+    color:#FFF;
+
+}
+/* ==================== 忙鈥撯�莽芦聽氓藛鈥斆÷┞÷�2009.6.8
+====================*/
+.article_search {
+    margin: 8px 0;
+}
+.article_search .inputBg {
+    width: 300px;
+}
+/* ==================== 忙鈥扳�氓聧掳忙艩楼盲禄路氓聧鈥�
+====================*/
+.quotation {
+    margin: 20px auto 20px auto;
+    text-align: center;
+}
+/*莽驴禄茅隆碌*/
+.pagebar {
+    height: 20px;
+    float: right;
+    padding-bottom:10px ;
+}
+.pagebar img {
+    position: relative;
+    top: 2px;
+}
+.pagebar a {
+    display: block;
+    float: left;
+    margin: 0 2px;
+    color: #0066cc;
+    text-decoration: none;
+}
+.pagebar a: hover {
+    color: #ff5a6a;
+    text-decoration: none;
+}
+.pagebar .page_now {
+    display: block;
+    float: left;
+    margin: 0 5px;
+    color: #01ff00;
+    font-weight: bold;
+}
+#pager a {
+    text-decoration: none;
+}
+/*氓潞鈥⒚┢捖ヂ济ㄋ喡�氓聫鈥姑ζ掆�茅鈥溌久ε铰�/
+#bottomNav {
+    width: 958px;
+}
+.bNavList {
+    border: 1px solid #fff;
+    background: #eef6f9;
+    height: 27px;
+    line-height: 27px;
+    padding: 0 12px;
+}
+.links {
+    border: 1px solid #fff;
+    background: #eef6f9;
+    padding: 0 12px;
+}
+.bNavList a,.links a {
+    color: #006acd;
+    text-decoration: none;
+}
+.bNavList img {
+    _position: relative;
+    top: 8px;
+}
+.links img {
+    width: 88px;
+    height: 30px;
+    margin: 5px;
+}
+/*莽鈥八喢β澠�/
+#footer {
+    background: url(images/logo1.gif) no-repeat 5% 50%;
+    padding-left: 200px;
+    width: 760px;
+    margin: 10px auto;
+}
+#footer .text {
+    background: url(images/footerLine.gif) no-repeat left center;
+    padding-left: 50px;
+    *padding-bottom: 20px;
+}
+#footer .text a {
+    color: #404040;
+    text-decoration: none;
+}
+/* ======氓鈥⑩�氓鈥溌伱β�猫戮茠忙碌庐氓艩篓氓聺鈥�======*/
+#compareBox {
+    width: 128px;
+    background: url(images/compareBg.gif) no-repeat top center;
+    background-color: #edf8ff;
+    padding: 35px 0 8px 0;
+    border: 1px solid #c5e4ff;
+    position: absolute;
+    right: 1px;
+    top: 200px;
+}
+#compareBox input {
+    width: 52px;
+    height: 13px;
+    border: none;
+    background: url(images/compareSub.gif) no-repeat;
+}
+#compareList {
+    margin: 0px 0px 8px 0px;
+    padding: 0px;
+    width: 120px;
+    background: #FFFFFF;
+    border: 1px solid #d6ecff;
+}
+#compareList li {
+    color: #333;
+    text-align: left;
+    background: #fff;
+    padding: 3px 5px;
+    margin: 3px 0;
+}
+#compareList li img {
+    float: right;
+    padding-top: 4px;
+}
+/*猫麓颅莽鈥奥┟铰γβ徛惷ぢ好р�鹿氓鈥÷幻︹�麓忙鈥撀懊ε掆�茅鈥櫬ヂ悸徝β犅�.6.2莽鈥八喢ε撀β仿幻ヅ犅�/
+.messageli {
+    list-style-type: none;
+    padding: 5px;
+    color: red
+}
+.messagediv {
+    font-size: 12px;
+    position: absolute;
+    border: 1px solid #FFD700;
+    text-align: center;
+    padding: 5px;
+    background-color: #FFFACD;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+/* 莽搂炉氓藛鈥犆モ�鈥樏β嵚⒚β犅访ヂ悸徝ぢ柯︹�鹿*/
+.point li {
+    float: left;
+    width: 300px;
+}
+.bttn-medium {
+    font-size: 14px;
+}
+
+.razer-bttn {
+	float:right;
+	margin-right:10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: .05em;
+    border-left: 2px solid #00ff00;
+    padding: .5em .8em;
+    display: inline-block;
+    background-color: #00a000;
+    
+}
+.razer-bttn:hover {
+     opacity: .7;
+     color: #fff;
+}
+
+.razer-bttn:after {
+  content: " >";
+  color: #00ff00;
+  bottom: 20px;
+}
+
+/*========start:ç™»å½•=========*/
+.login_left{
+	float: left;
+	width: 500px;
+	height: 372px;
+	padding: 0px 0 0 40px;
+}
+
+.login_right{
+	margin-top:100px;
+	background: #171717;
+	width: 573px;
+	height: 372px;
+	color: #FFF;
+}
+.login_cont{
+	width: 370px;
+	margin: 0 auto;
+}
+.login_cont .title{
+	margin-top: 25px;
+}
+.login_cont .title h3{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background: none;
+}
+.login_cont .input{
+	clear: both;
+	padding-top: 10px;
+}
+.input .yhm,.input .mm,.input .cap{
+	height: 31px;
+	margin-top: 20px;
+}
+.input .yhm p,.input .mm p,.input .cap p{
+	float: left;
+	width: 56px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	display: inline-block;
+	font-size: 12px;
+	padding-right: 10px;
+}
+
+.input .cap input{
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	border: none;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	background: #fff;
+	
+}
+.input .yhm input,.input .mm input{
+	float: left;
+	width: 300px;
+	height: 28px;
+	line-height: 28px;
+	border: none;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	background: #fff;
+	
+}
+.input .mm,.input .cap{
+	margin-top: 20px;
+}
+
+.input .jizhu{
+	height: 20px;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 12px;
+}
+.input .jizhu p{
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 60px;
+}
+.input .jizhu span{
+	float: right;
+	display: inline-block;
+	cursor: pointer;
+	margin-right: 10px;
+}
+.input .denglu{
+	margin-top: 30px;
+}
+.input .denglu button{
+	float: left;
+	clear: both;
+	display: block;
+	width: 108px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	background: #00a000;
+	border: none;
+	cursor: pointer;
+	border-left: 2px solid #00ff00;
+	margin-left: 66px;
+}
+.input button:hover{
+	opacity: .7;
+	color: #fff;
+}
+.input .denglu p{
+	float: left;
+	line-height: 38px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.input .denglu p a{
+	color: #01FF00;
+}
+/*========end:ç™»å½•=========*/
+
+/*==========start:æ³¨å†Œ============*/
+.register_left{
+	float: left;
+	width: 500px;
+	height: 500px;
+	padding: 0px 0 0 40px;
+}
+
+.register_right{
+	float: right;
+	background: #171717;
+	width: 573px;
+	height: 550px;
+	color: #FFF;
+}
+.regtitle{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 25px;
+}
+.register_cont{
+	margin-left: 100px;
+}
+.register_cont ul{
+	margin-top: 20px;
+}
+.register_cont ul li{
+	height: 60px;
+}
+.register_cont ul li p{
+	float: left;
+	width: 66px;
+	height:34px; 
+	line-height:34px;
+	text-align: right;
+	padding-right: 5px;
+}
+.register_cont ul li input{
+	float: left;
+	width: 260px;
+	height:30px; 
+	line-height:30px;
+	margin-left: 5px;
+}
+.register_cont ul li span{
+	display: inline-block;
+	width: 275px;
+	height: 25px;
+	line-height: 25px;
+	color: #FF0000;
+	margin-left: 76px;
+}
+.register_cont ul li table{
+	height: 30px;
+	line-height: 30px;
+}
+.register_cont ul li s{
+	text-decoration: none;
+}
+/*.register_cont td span{
+	display: block;
+	color:#FF0000;
+	height:25px;
+	line-height:25px;
+}*/
+.register_cont ul li button.razer-button{
+	float: left;
+	display: block;
+	width: 108px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	background: #00a000;
+	border: none;
+	cursor: pointer;
+	border-left: 2px solid #00ff00;
+}
+.register_cont ul li button.razer-button:hover{
+	opacity: .7;
+	color: #fff;
+}
+.register_cont ul li i{
+	float: left;
+	font-style: normal;
+	line-height: 38px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.register_cont ul li i a{
+	color: #01FF00;
+}
+/*==========end:æ³¨å†Œ============*/
+
+/*==========start:æ‰¾å›žå¯†ç ============*/
+.fpassword_left{
+	float: left;
+	width: 500px;
+	height: 312px;
+	padding: 0px 0 0 40px;
+}
+
+.fpassword_right{
+	float: right;
+	background: #171717;
+	width: 573px;
+	height: 312px;
+	color: #FFF;
+}
+.fpassword_right td button{
+	float: left;
+	display: block;
+	width: 108px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	background: #00a000;
+	border: none;
+	cursor: pointer;
+	border-left: 2px solid #00ff00;
+	padding: 0;
+}
+/*==========end:æ‰¾å›žå¯†ç ============*/
+
+/*========start:é‡æ–°è®¾ç½®å¯†ç ========*/
+.again_left{
+	float: left;
+	width: 500px;
+	height: 312px;
+	padding: 0px 0 0 40px;
+}
+
+.again_right{
+	float: right;
+	background: #171717;
+	width: 573px;
+	height: 312px;
+	color: #FFF;
+}
+.again_right td button{
+	float: left;
+	display: block;
+	width: 108px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	background: #00a000;
+	border: none;
+	cursor: pointer;
+	border-left: 2px solid #00ff00;
+	padding: 0;
+	margin-left: 45%;
+}
+/*========end:é‡æ–°è®¾ç½®å¯†ç ========*/

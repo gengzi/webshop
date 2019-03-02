@@ -1,0 +1,284 @@
+
+/*========start:ç™»å½•=========*/
+.login_left{
+	float: left;
+	width: 500px;
+	height: 372px;
+	padding: 0px 0 0 40px;
+}
+
+.login_right{
+	float: right;
+	background: #171717;
+	width: 573px;
+	height: 372px;
+	color: #FFF;
+}
+.login_cont{
+	width: 370px;
+	margin: 0 auto;
+}
+.login_cont .title{
+	margin-top: 25px;
+}
+.login_cont .title h3{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background: none;
+}
+.login_cont .input{
+	clear: both;
+	padding-top: 10px;
+}
+.input .yhm,.input .mm,.input .cap{
+	height: 31px;
+	margin-top: 20px;
+}
+.input .yhm p,.input .mm p,.input .cap p{
+	float: left;
+	width: 56px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	display: inline-block;
+	font-size: 12px;
+	padding-right: 10px;
+}
+
+.input .cap input{
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	border: none;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	background: #fff;
+	
+}
+.input .yhm input,.input .mm input{
+	float: left;
+	width: 300px;
+	height: 28px;
+	line-height: 28px;
+	border: none;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	background: #fff;
+	
+}
+.input .mm,.input .cap{
+	margin-top: 20px;
+}
+
+.input .jizhu{
+	height: 20px;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 12px;
+}
+.input .jizhu p{
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 60px;
+}
+.input .jizhu span{
+	float: right;
+	display: inline-block;
+	cursor: pointer;
+	margin-right: 10px;
+}
+.input .denglu{
+	margin-top: 30px;
+}
+.input .denglu button{
+	float: left;
+	clear: both;
+	display: block;
+	width: 108px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	background: #00a000;
+	border: none;
+	cursor: pointer;
+	border-left: 2px solid #00ff00;
+	margin-left: 66px;
+}
+.input button:hover{
+	opacity: .7;
+	color: #fff;
+}
+.input .denglu p{
+	float: left;
+	line-height: 38px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.input .denglu p a{
+	color: #01FF00;
+}
+/*========end:ç™»å½•=========*/
+
+/*==========start:æ³¨å†Œ============*/
+.register_left{
+	float: left;
+	width: 500px;
+	height: 500px;
+	padding: 0px 0 0 40px;
+}
+
+.register_right{
+
+	background: #171717;
+	width: 573px;
+	height: 550px;
+	color: #FFF;
+}
+.regtitle{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 25px;
+}
+.register_cont{
+	margin-left: 100px;
+}
+.register_cont ul{
+	margin-top: 20px;
+}
+.register_cont ul li{
+	height: 60px;
+}
+.register_cont ul li p{
+	float: left;
+	width: 66px;
+	height:34px; 
+	line-height:34px;
+	text-align: right;
+	padding-right: 5px;
+}
+.register_cont ul li input{
+	float: left;
+	width: 260px;
+	height:30px; 
+	line-height:30px;
+	margin-left: 5px;
+}
+.register_cont ul li span{
+	display: inline-block;
+	width: 275px;
+	height: 25px;
+	line-height: 25px;
+	color: #FF0000;
+	margin-left: 76px;
+}
+.register_cont ul li table{
+	height: 30px;
+	line-height: 30px;
+}
+.register_cont ul li s{
+	text-decoration: none;
+}
+/*.register_cont td span{
+	display: block;
+	color:#FF0000;
+	height:25px;
+	line-height:25px;
+}*/
+.register_cont ul li button.razer-button{
+	float: left;
+	display: block;
+	width: 108px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	background: #00a000;
+	border: none;
+	cursor: pointer;
+	border-left: 2px solid #00ff00;
+}
+.register_cont ul li button.razer-button:hover{
+	opacity: .7;
+	color: #fff;
+}
+.register_cont ul li i{
+	float: left;
+	font-style: normal;
+	line-height: 38px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.register_cont ul li i a{
+	color: #01FF00;
+}
+/*==========end:æ³¨å†Œ============*/
+
+/*==========start:æ‰¾å›žå¯†ç ============*/
+.fpassword_left{
+	float: left;
+	width: 500px;
+	height: 312px;
+	padding: 0px 0 0 40px;
+}
+
+.fpassword_right{
+	float: right;
+	background: #171717;
+	width: 573px;
+	height: 312px;
+	color: #FFF;
+}
+.fpassword_right td button{
+	float: left;
+	display: block;
+	width: 108px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	background: #00a000;
+	border: none;
+	cursor: pointer;
+	border-left: 2px solid #00ff00;
+	padding: 0;
+}
+/*==========end:æ‰¾å›žå¯†ç ============*/
+
+/*========start:é‡æ–°è®¾ç½®å¯†ç ========*/
+.again_left{
+	float: left;
+	width: 500px;
+	height: 312px;
+	padding: 0px 0 0 40px;
+}
+
+.again_right{
+	float: right;
+	background: #171717;
+	width: 573px;
+	height: 312px;
+	color: #FFF;
+}
+.again_right td button{
+	float: left;
+	display: block;
+	width: 108px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	background: #00a000;
+	border: none;
+	cursor: pointer;
+	border-left: 2px solid #00ff00;
+	padding: 0;
+	margin-left: 45%;
+}
+/*========end:é‡æ–°è®¾ç½®å¯†ç ========*/
