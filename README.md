@@ -54,16 +54,22 @@ JDBC：Java语言作为一种安全,健壮,易于使用并可以从网页上下�
 （5）	退出后台
 ### 3.5  数据库设计
 本系统采用MySQL作为后台开发工具，并利用其强大的数据库管理功能建立了在毕业设计选题系统数据库，其中表包括：用户表、商品信息表、订单表、订单详情表。
+
 1、用户表
+
 ![用户表](https://github.com/gengzi/webshop/blob/master/docandsql/img/1.png)
+
 2、商品信息表
- ![商品信息表](https://github.com/gengzi/webshop/blob/master/docandsql/img/2.png)
+
+![商品信息表](https://github.com/gengzi/webshop/blob/master/docandsql/img/2.png)
 
 3、订单表
-  ![订单表](https://github.com/gengzi/webshop/blob/master/docandsql/img/3.png)
+ 
+ ![订单表](https://github.com/gengzi/webshop/blob/master/docandsql/img/3.png)
 
 4、订单详情表
-  ![订单详情表](https://github.com/gengzi/webshop/blob/master/docandsql/img/4.png)
+ 
+ ![订单详情表](https://github.com/gengzi/webshop/blob/master/docandsql/img/4.png)
   
 ## 4网上商城系统的实现
 ### 4.1	 前台页面
